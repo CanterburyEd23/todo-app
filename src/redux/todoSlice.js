@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 export const todoSlice = createSlice({
     name: "todos",
     initialState: [
-        { id: 1, title: "example Todo", completed: false },
+        { id: 1, title: "example To-do", completed: false },
     ],
     reducers: {
         toggleComplete: (state, action) => {
