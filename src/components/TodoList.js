@@ -8,7 +8,7 @@ const TodoList = () => {
 
     return (
         <div className="listContainer">
-            <h2>Todo List</h2>
+            <h2>To-do List</h2>
             <ul className="list">
                 {todos.map((todo) => (
                     <TodoItem id={todo.id}
