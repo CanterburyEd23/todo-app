@@ -20,12 +20,12 @@ const AddTodoForm = () => {
 
     return (
         <div className="formContainer">
-            <h2>Add a Todo...</h2>
+            <h2>Add a To-do...</h2>
             <form onSubmit={onSubmit}>
                 <label>Name: </label>
                 <input 
                     type="text"
-                    placeholder="Add todo..."
+                    placeholder="Add to-do..."
                     value={value}
                     onChange={(event) => setValue(event.target.value)}
                 ></input>
